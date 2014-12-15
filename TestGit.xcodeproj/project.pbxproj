@@ -14,6 +14,7 @@
 		E8D94FE91A3E85F00067CEFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D94FE81A3E85F00067CEFE /* Images.xcassets */; };
 		E8D94FEC1A3E85F00067CEFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D94FEA1A3E85F00067CEFE /* LaunchScreen.xib */; };
 		E8D94FF81A3E85F00067CEFE /* TestGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D94FF71A3E85F00067CEFE /* TestGitTests.swift */; };
+		E8D950021A3E86600067CEFE /* TitleInserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D950011A3E86600067CEFE /* TitleInserter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		E8D94FF11A3E85F00067CEFE /* TestGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D94FF61A3E85F00067CEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8D94FF71A3E85F00067CEFE /* TestGitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGitTests.swift; sourceTree = "<group>"; };
+		E8D950011A3E86600067CEFE /* TitleInserter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleInserter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				E8D94FDE1A3E85F00067CEFE /* AppDelegate.swift */,
+				E8D950011A3E86600067CEFE /* TitleInserter.swift */,
 				E8D94FE31A3E85F00067CEFE /* ViewController.swift */,
 				E8D94FE51A3E85F00067CEFE /* Main.storyboard */,
 				E8D94FE81A3E85F00067CEFE /* Images.xcassets */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D950021A3E86600067CEFE /* TitleInserter.swift in Sources */,
 				E8D94FE41A3E85F00067CEFE /* ViewController.swift in Sources */,
 				E8D94FE21A3E85F00067CEFE /* TestGit.xcdatamodeld in Sources */,
 				E8D94FDF1A3E85F00067CEFE /* AppDelegate.swift in Sources */,
