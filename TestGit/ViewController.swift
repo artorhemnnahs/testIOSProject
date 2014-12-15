@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         TitleInserter.setTitleToPooForViewController(self)
         BackgroundColorFeature.setBackgroundColorForVC(self)
+        let label = UILabel(frame: self.view.frame)
+        self.view.addSubview(label)
     }
 
     override func didReceiveMemoryWarning() {
