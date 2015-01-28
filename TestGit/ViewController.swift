@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         let label = UILabel(frame: self.view.frame)
         self.view.addSubview(label)
         
-        label.text = "hello"
+        label.text = "hi hi"
     }
 
     override func didReceiveMemoryWarning() {
