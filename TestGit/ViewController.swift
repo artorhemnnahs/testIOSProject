@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         BackgroundColorFeature.setBackgroundColorForVC(self)
         let label = UILabel(frame: self.view.frame)
         self.view.addSubview(label)
+        
+        label.text = "hi"
     }
 
     override func didReceiveMemoryWarning() {
