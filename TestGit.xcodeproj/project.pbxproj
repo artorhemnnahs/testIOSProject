@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E8A51E041A78C198004A3E08 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A51E031A78C198004A3E08 /* TableViewController.swift */; };
+		E8A51E081A78C2E1004A3E08 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A51E071A78C2E1004A3E08 /* DataSource.swift */; };
 		E8D94FDF1A3E85F00067CEFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D94FDE1A3E85F00067CEFE /* AppDelegate.swift */; };
 		E8D94FE21A3E85F00067CEFE /* TestGit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8D94FE01A3E85F00067CEFE /* TestGit.xcdatamodeld */; };
 		E8D94FE41A3E85F00067CEFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D94FE31A3E85F00067CEFE /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		E8A51E031A78C198004A3E08 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E8A51E071A78C2E1004A3E08 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataSource.swift; path = ../DataSource.swift; sourceTree = "<group>"; };
 		E8D94FD91A3E85F00067CEFE /* TestGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D94FDD1A3E85F00067CEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8D94FDE1A3E85F00067CEFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		E8D94FDB1A3E85F00067CEFE /* TestGit */ = {
 			isa = PBXGroup;
 			children = (
+				E8A51E071A78C2E1004A3E08 /* DataSource.swift */,
 				E8D94FDE1A3E85F00067CEFE /* AppDelegate.swift */,
 				E8D950011A3E86600067CEFE /* TitleInserter.swift */,
 				E8D950031A3E88180067CEFE /* BackgroundColorFeature.swift */,
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A51E081A78C2E1004A3E08 /* DataSource.swift in Sources */,
 				E8D950041A3E88180067CEFE /* BackgroundColorFeature.swift in Sources */,
 				E8A51E041A78C198004A3E08 /* TableViewController.swift in Sources */,
 				E8D950021A3E86600067CEFE /* TitleInserter.swift in Sources */,
