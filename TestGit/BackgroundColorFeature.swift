@@ -11,6 +11,7 @@ import UIKit
 class BackgroundColorFeature: NSObject {
     class func setBackgroundColorForVC(aViewController:UIViewController) {
         aViewController.view.backgroundColor = UIColor.greenColor()
+        //we set it green!
     }
 
 }
